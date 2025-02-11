@@ -1,7 +1,7 @@
 ---
 title: "Hierarchical Rectified Flow Matching with Mini-Batch Couplings"
 weight: 4
-authors: "<strong>Yichi Zhang*</strong>, Yici Yan, Alex Schwing, Zhizhen Zhao"
+authors: "<strong>Yichi Zhang</strong>, Yici Yan, Alex Schwing, Zhizhen Zhao"
 conference: "Under review. "
 image: "/assets/images/HRF-mini-batch.png"
 project: "https://example.com/project"
