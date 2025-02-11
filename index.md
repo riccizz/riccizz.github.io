@@ -20,7 +20,7 @@ title: Yichi Zhang
         <img src="{{ '/assets/images/portfolio.jpg' | relative_url }}" alt="Profile Picture">
     </div>
 </div>
-<div class="social-icons">
+<!-- <div class="social-icons">
     <a href="https://scholar.google.com/citations?user=yourID" target="_blank">
         <img src="/assets/icons/google_scholar.svg" alt="Google Scholar">
     </a>
@@ -33,7 +33,7 @@ title: Yichi Zhang
     <a href="https://x.com/riccizz0045" target="_blank">
         <img src="/assets/icons/twitter.svg" alt="Twitter">
     </a>
-</div>
+</div> -->
 
 ---
 
