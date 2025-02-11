@@ -1,0 +1,26 @@
+<div class="paper-card">
+    <div class="paper-image">
+        <img src="{{ include.project.image }}" alt="{{ include.project.title }}">
+    </div>
+    <div class="paper-content">
+        <h3><strong>{{ include.project.title }}</strong></h3>
+        <p><em>{{ include.project.authors }}</em></p>
+        <p><em>{{ include.project.conference }}</em></p>
+        
+        <p>
+            <a href="{{ include.project.project }}" target="_blank">[Project]</a>
+            <a href="{{ include.project.paper }}" target="_blank">[Paper]</a>
+            <a href="{{ include.project.code }}" target="_blank">[Code]</a>
+            <a href="javascript:void(0);" class="toggle-abstract">[Abstract]</a>
+            <a href="javascript:void(0);" class="toggle-bibtex">[Bibtex]</a>
+        </p>
+
+        <div class="abstract-content hidden">
+            <p>{{ include.project.abstract }}</p>
+        </div>
+
+        <div class="bibtex-content hidden">
+            <pre>{{ include.project.bibtex }}</pre>
+        </div>
+    </div>
+</div>

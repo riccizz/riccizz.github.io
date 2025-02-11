@@ -1,0 +1,12 @@
+title: "Yichi Zhang"
+author: "Yichi Zhang"
+email: "your-email@example.com"
+description: "A personal portfolio website showcasing my projects and experience."
+baseurl: ""
+url: "https://your-github-username.github.io"
+theme: null
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
