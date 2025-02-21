@@ -8,9 +8,15 @@
         <p><em>{{ include.project.conference }}</em></p>
         
         <p>
-            <a href="{{ include.project.project }}" target="_blank">[Project]</a>
-            <a href="{{ include.project.paper }}" target="_blank">[Paper]</a>
-            <a href="{{ include.project.code }}" target="_blank">[Code]</a>
+            {% if include.project.project %}
+                <a href="{{ include.project.project }}" target="_blank">[Project]</a>
+            {% endif %}
+            {% if include.project.paper %}
+                <a href="{{ include.project.paper }}" target="_blank">[Paper]</a>
+            {% endif %}
+            {% if include.project.code %}
+                <a href="{{ include.project.code }}" target="_blank">[Code]</a>
+            {% endif %}
             <a href="javascript:void(0);" class="toggle-abstract">[Abstract]</a>
             <a href="javascript:void(0);" class="toggle-bibtex">[Bibtex]</a>
         </p>

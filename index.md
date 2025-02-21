@@ -7,7 +7,7 @@ title: Yichi Zhang
 <div class="about-section">
     <div class="about-text">
         <p>
-            Hi! I am a third-year Ph.D. in Electrical & Computer Engineering at the University of Illinois at Urbana-Champaign, advised by <a href="https://zhizhenz.ece.illinois.edu/">Prof. Zhizhen (Jane) Zhao</a>. I also collaborate closely with <a href="https://www.alexander-schwing.de/">Prof. Alexander Schwing</a>. Prior to that I obtained my Bachelor of Engineering degree from Zhejiang University and Bachelor of Science degree from UIUC, majoring in Computer Engineering. 
+            Hi! I am a third-year Ph.D. in Electrical & Computer Engineering at the University of Illinois at Urbana-Champaign, advised by <a href="https://zhizhenz.ece.illinois.edu/">Prof. Zhizhen (Jane) Zhao</a>. I also collaborate closely with <a href="https://www.alexander-schwing.de/">Prof. Alexander Schwing</a>. Prior to that I obtained my Bachelor of Engineering degree from Zhejiang University and Bachelor of Science degree from UIUC, both majoring in Computer Engineering. 
         </p>
         <p>
             My research focuses on generative AI for computer vision, with a particular interest in developing novel diffusion and flow models and applying them to imaging sciences and inverse problems. 
