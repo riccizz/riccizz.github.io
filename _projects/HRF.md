@@ -16,5 +16,5 @@ bibtex: |
     booktitle={The Thirteenth International Conference on Learning Representations},
     year={2025},
     url={https://openreview.net/forum?id=6F6qwdycgJ}
-    }
+  }
 ---
