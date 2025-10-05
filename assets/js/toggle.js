@@ -1,18 +1,22 @@
 document.addEventListener("DOMContentLoaded", function () {
-    document.querySelectorAll(".paper-card").forEach(function (card) {
-        let abstractButton = card.querySelector(".toggle-abstract");
-        let bibtexButton = card.querySelector(".toggle-bibtex");
-        let abstractContent = card.querySelector(".abstract-content");
-        let bibtexContent = card.querySelector(".bibtex-content");
+  document.querySelectorAll(".paper-card").forEach(function (card) {
+    const abstractButton  = card.querySelector(".toggle-abstract");
+    const bibtexButton    = card.querySelector(".toggle-bibtex");
+    const abstractContent = card.querySelector(".abstract-content");
+    const bibtexContent   = card.querySelector(".bibtex-content");
 
-        abstractButton.addEventListener("click", function () {
-            bibtexContent.classList.add("hidden");
-            abstractContent.classList.toggle("hidden");
-        });
+    if (abstractButton && abstractContent) {
+      abstractButton.addEventListener("click", function () {
+        if (bibtexContent) bibtexContent.classList.add("hidden");
+        abstractContent.classList.toggle("hidden");
+      });
+    }
 
-        bibtexButton.addEventListener("click", function () {
-            abstractContent.classList.add("hidden");
-            bibtexContent.classList.toggle("hidden");
-        });
-    });
+    if (bibtexButton && bibtexContent) {
+      bibtexButton.addEventListener("click", function () {
+        if (abstractContent) abstractContent.classList.add("hidden");
+        bibtexContent.classList.toggle("hidden");
+      });
+    }
+  });
 });

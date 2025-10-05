@@ -18,15 +18,19 @@
                 <a href="{{ include.project.code }}" target="_blank">[Code]</a>
             {% endif %}
             <a href="javascript:void(0);" class="toggle-abstract">[Abstract]</a>
-            <a href="javascript:void(0);" class="toggle-bibtex">[Bibtex]</a>
+            {% if include.project.bibtex %}
+                <a href="javascript:void(0);" class="toggle-bibtex">[BibTex]</a>
+            {% endif %}
         </p>
 
         <div class="abstract-content hidden">
             <p>{{ include.project.abstract }}</p>
         </div>
 
+        {% if include.project.bibtex %}
         <div class="bibtex-content hidden">
             <pre>{{ include.project.bibtex }}</pre>
         </div>
+        {% endif %}
     </div>
 </div>
